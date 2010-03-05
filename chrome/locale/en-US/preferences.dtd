@@ -28,6 +28,7 @@
 <!ENTITY sameplace.chat_app.accesskey "a">
 <!ENTITY sameplace.chat_app_default.label "default">
 <!ENTITY sameplace.chat_app_custom.label "Custom URL...">
+<!ENTITY sameplace.chat_app_sp-pp.label "Sameplace Power Pack">
 
 <!ENTITY sameplace.add_button.label "Add toolbar button:">
 <!ENTITY sameplace.open_chat.label "Open chats in:">

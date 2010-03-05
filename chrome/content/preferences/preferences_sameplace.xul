@@ -66,12 +66,15 @@
                       editable="true"
                       value="default"
                       oncommand="if(event.target.value == 'custom')
-                                 this.value = 'http://';"
-                      preference="sameplace-default-app-url">
+				 this.value = 'http://';
+				 if(event.target.value == 'sp-pp')
+				 this.value = 'http://hamen.homelinux.org/sameplace/app/chat-pp.xhtml';"
+		      preference="sameplace-default-app-url">
               <menupopup>
                 <menuitem label="&sameplace.chat_app_default.label;"/>
                 <menuseparator/>
                 <menuitem label="&sameplace.chat_app_custom.label;" value="custom"/>
+		<menuitem label="&sameplace.chat_app_sp-pp.label;" value="sp-pp"/>
               </menupopup>
             </menulist>
           </row>
